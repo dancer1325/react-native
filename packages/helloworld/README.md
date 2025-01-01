@@ -3,3 +3,27 @@
 * [**React Native**](https://reactnative.dev) HelloWorld test app
 * uses
   * internal use
+
+## How to run?
+* `yarn install`
+  * select SOME of the prompt versions
+* `yarn bootstrap`
+  * Problems: "Error: Cannot find module 'metro-babel-register'"
+    * Solution: TODO:
+* `yarn build`
+  * Problems: "Error: Cannot find module 'metro-babel-register'"
+    * Solution: TODO:
+* `yarn bundle`
+  * Problems: "Error: Cannot find module 'metro-babel-register'"
+    * Solution: TODO:
+* `yarn install-and-run`
+  * Problems: "Error: Cannot find module 'metro-babel-register'"
+    * Solution: TODO:
+* `yarn launch`
+  * Problems: "Usually this happens when watchman isn't running."
+    * Solution: TODO:
+
+## Notes
+*`yarn jest`
+  * Problems: "error: unknown command 'set-version'"
+    * Solution: TODO:
