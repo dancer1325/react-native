@@ -1,34 +1,29 @@
 # React Native Technical Documentation
 
-The React Native technical documentation describes how React Native works
-internally, the subsystems it is composed of, how they work and how they
-interact with each other.
+* goal
+  * how React Native 
+    * works internally
+    * is composed of
+    * components interact with each other
 
-The intended audience is people who want to learn about the internals of React
-Native and contribute to it. **End users of React Native are meant to use the
-[public website](https://reactnative.dev) instead** (its code can be found
-[here](https://github.com/facebook/react-native-website)).
-
-For details on how we approach technical documentation in this repository, see
-[GUIDELINES.md](./GUIDELINES.md).
+* this repo
+  * follows
+    * monorepo approach
+  * provides
+    * React Native
+      * Android version
+      * iOS version
+      * ⚠️if you want React Native | OTHER platforms -> maintained [outside](../ECOSYSTEM.md)⚠️
 
 ## 🚀 Usage
 
-This repository is not meant to be consumed directly by end users. Instead, it
-creates several packages that are published to the NPM registry for direct
-consumption by end users and frameworks.
-
-This repository uses a monorepo approach, and public packages can be found in
-the [`packages`](../packages/) directory (the ones that do not contain
-`"private": true` in their `package.json` file).
-
-The most important package is the
-[`react-native`](https://www.npmjs.com/package/react-native) package, located in
-[`packages/react-native`](../packages/react-native), which contains the public
-JavaScript API.
-
-This repository provides the Android and iOS versions of React Native. Versions
-for other platforms are maintained in their own repositories.
+* [several packages](../packages) /
+  * SOME 
+    * are published SEPARATELY | NPM registry
+      * Reason:🧠check | "package.json", `"private": true`🧠
+  * ["react-native"](../packages/react-native)
+    * the MOST important package /
+      * contains: JS API
 
 ## 📐 Design
 

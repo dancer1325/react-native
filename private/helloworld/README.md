@@ -24,6 +24,6 @@
     * Solution: TODO:
 
 ## Notes
-*`yarn jest`
+* `yarn jest`
 * Problems: "error: unknown command 'set-version'"
   * Solution: TODO:
